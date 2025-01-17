@@ -1,0 +1,7 @@
+<div>Hello {{value}}</div>
+
+<label for="queryParam">Enter a Text:</label>
+<input id="queryParam" #queryParam type="text" />
+<br/>
+
+<button id="btnSubmit" type="button" (click)="onSubmit(queryParam.value)">Submit</button>
