@@ -15,7 +15,7 @@ export class AppComponent {
   onSubmit(textVal: string){
     this.value=textVal;
 
-    this.http.get('https://sureshpocanalyzeimage.azurewebsites.net/api/AnalyzeImage?name=SC')
-      .subscribe((resp: any) => this.value = resp.text);
+    // this.http.get('https://sureshpocanalyzeimage.azurewebsites.net/api/AnalyzeImage?name=SC')
+    //   .subscribe((resp: any) => this.value = resp.text);
   }
 }
