@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+// import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-root',
@@ -7,10 +7,10 @@ import { HttpClient } from '@angular/common/http';
 })
 export class AppComponent {
   value = 'Suresh';
-  http: HttpClient;
-  constructor(private httpClient: HttpClient){
-    this.http = this.httpClient;
-  }
+  // http: HttpClient;
+  // constructor(private httpClient: HttpClient){
+  //   this.http = this.httpClient;
+  // }
 
   onSubmit(textVal: string){
     this.value=textVal;
